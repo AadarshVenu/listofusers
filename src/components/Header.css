@@ -1,0 +1,31 @@
+header {
+    background-color: rgb(87, 165, 230);
+    padding: 00px;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: "Cabin", sans-serif;
+    color: darkblue;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.links {
+    margin: 80px;
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(243, 243, 243);
+    text-shadow: 2px 2px #160101;
+}
